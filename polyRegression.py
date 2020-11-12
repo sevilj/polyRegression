@@ -14,7 +14,7 @@ Linear Regression = x_0 * theta_0 + x_1*theta_1 '''
 
 
 # Path of data file
-path = "B29.csv"
+path = "data.csv"
 # Reading data from file
 data = pd.read_csv(path, nrows=10000)
 
